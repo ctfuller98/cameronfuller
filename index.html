@@ -3,17 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cameron Fuller</title>
+    <title>Cameron Fuller - Web Development</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="/assets/logo.png">
 </head>
 <body>
-    <div class="container">
-        <h2>Bootstrap Test</h2>
-        <button class="btn btn-primary">
-            Primary Button
-        </button>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/logo.png" alt="Cameron Fuller Logo" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header id="home" class="">
+        <video autoplay muted loop id="myVideo">
+            <source src="/assets/backgroundvideo.mp4" type="video/mp4">
+          </video>
+        <div class="container d-flex flex-row">
+            <div class="col-lg-4">
+                <img src="/assets/profilepic.JPG" alt="Cameron Fuller profile pic" height="250" width="240">
+            </div>
+            
+            <div class="col-lg-8 hero-text">
+                <h1 class="display-4">Hello, I'm Cameron Fuller</h1>
+                <p class="lead">I'm a web developer based in Draper, Utah. I create beautiful and responsive websites using HTML, CSS, JavaScript, and other web technologies.</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
+            </div>
+           
+        </div>
+    </header>
+    <!-- Skills -->
+    <section id="skills" class="container py-4">
+        <h2 class="text-center">My Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/assets/html.jpg" class="card-img-top" alt="HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">I can write semantic and valid HTML code that follows the best practices and standards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="^3^" class="card-img-top" alt="CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">I can style and layout web pages using CSS properties, selectors, media queries, and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="^4^" class="card-img-top" alt="JavaScript">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">I can add interactivity and functionality to web pages using JavaScript code, libraries, and APIs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="container py-4">
+        <h2 class="text-center">My Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="^5^" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">This is a project that I made using HTML, CSS, and JavaScript. It is a responsive and interactive website that showcases some of my skills and interests.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="^6^" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">This is another project that I made using HTML, CSS, and JavaScript. It is a dynamic and user-friendly website that allows users to search and browse movies from a database.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="contact" class="container py-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact Me</h3>
+                <p>If you are interested in hiring me or working with me, please feel free to contact me using the form below or the following details:</p>
+                <ul>
+                    <li>Email: johndoe@example.com</li>
+                    <li>Phone: +1 (801) 123-4567</li>
+                    <li>LinkedIn: [John Doe]</li>
+                    <li>GitHub: [johndoe]</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Send Me a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
     
 </body>
