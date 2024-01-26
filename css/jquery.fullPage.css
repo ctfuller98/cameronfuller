@@ -91,6 +91,7 @@ html, body {
     transition: none !important;
 }
 #fp-nav {
+    display:none;
     position: fixed;
     z-index: 100;
     margin-top: -32px;
@@ -199,4 +200,10 @@ html, body {
 }
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    #fp-nav {
+        display: block;
+    }
 }
