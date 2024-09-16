@@ -264,7 +264,7 @@ h1,h2,h3,h4,h5
 /* start about */
 #about h4
     {
-        padding: 15px 0;
+        padding: 15px;
 		color: #F94E32;
     }
 #about .progress
@@ -294,9 +294,9 @@ h1,h2,h3,h4,h5
         float: right;
     }
 #about .profile-pic {
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
-    margin-top:25px;
+   
     
 }
 /* end about */
@@ -330,16 +330,17 @@ h1,h2,h3,h4,h5
         right: 0;
         bottom: 0;
         opacity: 0;
-        width: 100%;
+        width: 80%;
         height: 100%;
         position: absolute;
         padding-top: 60px;
         transition: all 0.4s ease-in-out;
+        margin: 0 auto;
     }
 #portfolio .portfolio-thumb:hover .portfolio-overlay
     {
         
-        opacity: 0.8;
+        opacity: 1;
         transform: scale(0.9);
     }
     #portfolio a {
